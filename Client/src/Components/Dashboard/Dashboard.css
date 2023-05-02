@@ -1,0 +1,9 @@
+.division{
+    width: 200px;
+    height: 200px;
+    border: 1px solid ;
+    color: white;
+    background-color: black;
+    opacity: 0.4;
+    text-align: center;
+}

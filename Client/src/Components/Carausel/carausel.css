@@ -1,0 +1,68 @@
+.section1{
+    width: 100%;
+    /* height: 550px; */
+}
+#car-img{
+    position: relative;
+}
+.text,.text1{
+    position: absolute;
+    z-index: 1;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: bold;
+    color : white;
+    background-color: rgba(0,0,0,0.3);
+}
+.text{
+    top: 255px;
+    left: 150px;
+}
+.text1{
+    top: 350px;
+    left: 150px;
+    font-size: 25px;
+    font-weight: normal;
+}
+@media(max-width : 1220px){
+    .text{
+        top:150px;
+        left: 120px ;
+        font-size: 40px;
+    }
+    .text1{
+        top: 225px;
+        left: 120px;
+        font-size: 25px;
+    }
+}
+@media(max-width : 930px){
+    .text{
+        top:130px;
+        left: 120px ;
+        font-size: 32px;
+    }
+    .text1{
+        top: 195px;
+        left: 120px;
+        font-size: 18px;
+    }
+}
+@media(max-width : 760px){
+    .text{
+        top:105px;
+        left: 80px ;
+        font-size: 32px;
+    }
+    .text1{
+       display: none;
+    }
+}
+@media(max-width : 700px){
+    .text{
+        display: none;
+    }
+    .text1{
+       display: none;
+    }
+}

@@ -1,0 +1,24 @@
+.company-heading{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.desc{
+    text-align: center;
+    font-size: 18px;
+    line-height: 2.8;
+    text-transform: capitalize;
+}
+.ima{
+    width: 100%;
+    height: 500px;
+}
+@media(max-width : 550px) {
+    .ima{
+        height: 350px;
+    }
+    .desc{
+        line-height: normal;
+    }
+}
